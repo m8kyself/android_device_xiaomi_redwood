@@ -9,6 +9,8 @@ DEVICE_PATH := device/xiaomi/redwood
 # Inherit from sm8350-common
 include device/xiaomi/sm8350-common/BoardConfigCommon.mk
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := redwood
 
